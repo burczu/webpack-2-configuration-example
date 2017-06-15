@@ -4,7 +4,8 @@
   "description": "This repo is made for the blog post purpose.",
   "main": "main.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "clear": "rimraf ./dist",
+    "start": "yarn clear && webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/burczu/webpack-2-configuration-example#readme",
   "devDependencies": {
+    "rimraf": "^2.6.1",
     "webpack": "^2.6.1"
   }
 }
