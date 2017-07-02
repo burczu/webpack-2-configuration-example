@@ -9,6 +9,12 @@ Install all the necessary packages:
 yarn
 ```
 
+or:
+
+```zsh
+npm install
+```
+
 Run example:
 
 ```zsh
